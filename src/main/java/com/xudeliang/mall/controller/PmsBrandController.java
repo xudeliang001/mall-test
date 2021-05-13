@@ -81,6 +81,7 @@ public class PmsBrandController {
         }
     }
 
+
     @ApiOperation("分页查询品牌列表")
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     @ResponseBody
