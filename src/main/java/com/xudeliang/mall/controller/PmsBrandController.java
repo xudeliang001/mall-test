@@ -80,8 +80,6 @@ public class PmsBrandController {
             return CommonResult.failed("操作失败");
         }
     }
-
-
     @ApiOperation("分页查询品牌列表")
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     @ResponseBody
