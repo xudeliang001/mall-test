@@ -5,12 +5,14 @@ import com.xudeliang.mall.mbg.mapper.PmsBrandMapper;
 import com.xudeliang.mall.mbg.model.PmsBrand;
 import com.xudeliang.mall.mbg.model.PmsBrandExample;
 import com.xudeliang.mall.service.PmsBrandService;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.List;
 
+@Service
 public class PmsBrandServiceImpl implements PmsBrandService {
-    @Autowired
+    @Resource
     private PmsBrandMapper brandMapper;
 
     @Override

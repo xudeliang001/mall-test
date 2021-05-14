@@ -1,11 +1,11 @@
 package com.xudeliang.mall.service;
 
 import com.xudeliang.mall.mbg.model.PmsBrand;
-import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 
-@Service
+
 public interface PmsBrandService {
     List<PmsBrand> listAllBrand();
 
