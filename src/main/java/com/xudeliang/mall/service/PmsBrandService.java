@@ -1,11 +1,14 @@
 package com.xudeliang.mall.service;
 
-import com.xudeliang.mall.mbg.model.PmsBrand;
 
+import com.xudeliang.mall.mbg.model.PmsBrand;
 
 import java.util.List;
 
-
+/**
+ * PmsBrandService
+ * Created by macro on 2019/4/19.
+ */
 public interface PmsBrandService {
     List<PmsBrand> listAllBrand();
 
